@@ -4,6 +4,8 @@ project (Simulation)
 set (Simulation_VERSION_MAJOR 1)
 set (Simulation_VERSION_MINOR 0)
 
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+
 message("Source directory: ")
 message(${PROJECT_SOURCE_DIR})
 
@@ -31,6 +33,9 @@ target_include_directories(sim PUBLIC
 # add the executable
 add_executable(simulation ${sim_SRC})
 
+target_link_libraries(simulation m)
+
+
 
 
 ####################################################
@@ -50,7 +55,16 @@ set(plotting_SRC
  
 add_executable(plotting ${plotting_SRC})
 
-target_link_libraries(plotting ${OPENGL_LIBRARIES} ${GLUT_LIBRARY} ${PROJECT_SOURCE_DIR}/freeglut_mingw/lib/libfreeglut.a)
+target_link_libraries(plotting ${OPENGL_LIBRARIES} ${GLUT_LIBRARY})
+target_link_libraries(plotting ${PROJECT_SOURCE_DIR}/freeglut_mingw/lib/libfreeglut.a)
+
+target_link_libraries(plotting m)
+
+if (UNIX)
+  target_link_libraries(plotting glut)
+endif (UNIX)
+
+
 
 add_custom_command(
         TARGET simulation POST_BUILD
