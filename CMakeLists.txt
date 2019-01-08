@@ -4,7 +4,7 @@ project (Simulation)
 set (Simulation_VERSION_MAJOR 1)
 set (Simulation_VERSION_MINOR 0)
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+set (CMAKE_CXX_STANDARD 11)
 
 message("Source directory: ")
 message(${PROJECT_SOURCE_DIR})
