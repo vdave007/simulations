@@ -11,15 +11,15 @@
 
 
 #include <math.h>
-// #ifdef __linux__ 
-// 	//linux code goes here
+#ifdef __linux__ 
+	//linux code goes here
 	#include <unistd.h>
-// #elif _WIN32
-// 	// windows code goes here
-// 	#include <windows.h>
-// #else
+#elif _WIN32
+	// windows code goes here
+	#include <windows.h>
+#else
 
-// #endif
+#endif
 
 #include <GL/glut.h>
 #include <GL/gl.h>
@@ -319,13 +319,13 @@ void display_function()
         }
    else global.current_frame = 0;
 
-// #ifdef __linux__ 
+#ifdef __linux__ 
 	usleep(40000);
-// #elif _WIN32
-// 	Sleep(1000);
-// #else
-
-// #endif
+#elif _WIN32
+	Sleep(40);
+#else
+// 
+#endif
 
 }
 
