@@ -1,0 +1,192 @@
+Simulation Methods Course, 2018
+#1 Assignment Molecular Dynamics (Brownian Dynamics) simulation
+Unpotimized version (slowest)
+Timestep (dt) = 0.001000
+Screening length = 4.000000
+Driving force on particles = 0.500000
+Verlet cutoff distance = 6.00
+Verlet cutoff distance squared = 36.00
+Half of Verlet intershell distance = 1.00
+Half of Verlet intershell distance squared = 1.00
+Initializing the simulation box
+SX = 60.000000 SY = 60.000000
+Random arrangement of particles initialized
+N_particles = 800 placed
+Particles initialized
+N_particles = 800
+Verlet list will be built for the first time
+System density is 0.194
+Particles in a R = 6.00 shell = 21.991149
+Estimated N_Verlet_max = 7350
+Verlet list reallocated from 7350
+New Verlet list max size = 8085
+Counted Verlet list lenght = 7666
+Timestep: 0 / 100000
+Counted Verlet list lenght = 7647
+Timestep: 1000 / 100000
+Counted Verlet list lenght = 7660
+Timestep: 2000 / 100000
+Counted Verlet list lenght = 7622
+Timestep: 3000 / 100000
+Counted Verlet list lenght = 7603
+Timestep: 4000 / 100000
+Counted Verlet list lenght = 7616
+Timestep: 5000 / 100000
+Timestep: 6000 / 100000
+Counted Verlet list lenght = 7611
+Timestep: 7000 / 100000
+Counted Verlet list lenght = 7626
+Timestep: 8000 / 100000
+Counted Verlet list lenght = 7617
+Timestep: 9000 / 100000
+Timestep: 10000 / 100000
+Counted Verlet list lenght = 7620
+Timestep: 11000 / 100000
+Counted Verlet list lenght = 7632
+Timestep: 12000 / 100000
+Counted Verlet list lenght = 7630
+Timestep: 13000 / 100000
+Timestep: 14000 / 100000
+Counted Verlet list lenght = 7651
+Timestep: 15000 / 100000
+Counted Verlet list lenght = 7657
+Timestep: 16000 / 100000
+Counted Verlet list lenght = 7636
+Timestep: 17000 / 100000
+Timestep: 18000 / 100000
+Counted Verlet list lenght = 7637
+Timestep: 19000 / 100000
+Counted Verlet list lenght = 7592
+Timestep: 20000 / 100000
+Timestep: 21000 / 100000
+Counted Verlet list lenght = 7629
+Timestep: 22000 / 100000
+Counted Verlet list lenght = 7628
+Timestep: 23000 / 100000
+Counted Verlet list lenght = 7617
+Timestep: 24000 / 100000
+Timestep: 25000 / 100000
+Counted Verlet list lenght = 7626
+Timestep: 26000 / 100000
+Counted Verlet list lenght = 7587
+Timestep: 27000 / 100000
+Timestep: 28000 / 100000
+Counted Verlet list lenght = 7551
+Timestep: 29000 / 100000
+Counted Verlet list lenght = 7584
+Timestep: 30000 / 100000
+Timestep: 31000 / 100000
+Counted Verlet list lenght = 7534
+Timestep: 32000 / 100000
+Counted Verlet list lenght = 7531
+Timestep: 33000 / 100000
+Timestep: 34000 / 100000
+Counted Verlet list lenght = 7528
+Timestep: 35000 / 100000
+Counted Verlet list lenght = 7546
+Timestep: 36000 / 100000
+Timestep: 37000 / 100000
+Counted Verlet list lenght = 7537
+Timestep: 38000 / 100000
+Counted Verlet list lenght = 7488
+Timestep: 39000 / 100000
+Timestep: 40000 / 100000
+Counted Verlet list lenght = 7516
+Timestep: 41000 / 100000
+Counted Verlet list lenght = 7480
+Timestep: 42000 / 100000
+Timestep: 43000 / 100000
+Counted Verlet list lenght = 7471
+Timestep: 44000 / 100000
+Counted Verlet list lenght = 7444
+Timestep: 45000 / 100000
+Timestep: 46000 / 100000
+Counted Verlet list lenght = 7459
+Timestep: 47000 / 100000
+Counted Verlet list lenght = 7451
+Timestep: 48000 / 100000
+Timestep: 49000 / 100000
+Counted Verlet list lenght = 7456
+Timestep: 50000 / 100000
+Counted Verlet list lenght = 7483
+Timestep: 51000 / 100000
+Timestep: 52000 / 100000
+Counted Verlet list lenght = 7469
+Timestep: 53000 / 100000
+Timestep: 54000 / 100000
+Counted Verlet list lenght = 7483
+Timestep: 55000 / 100000
+Counted Verlet list lenght = 7456
+Timestep: 56000 / 100000
+Timestep: 57000 / 100000
+Counted Verlet list lenght = 7450
+Timestep: 58000 / 100000
+Timestep: 59000 / 100000
+Counted Verlet list lenght = 7482
+Timestep: 60000 / 100000
+Counted Verlet list lenght = 7462
+Timestep: 61000 / 100000
+Timestep: 62000 / 100000
+Counted Verlet list lenght = 7492
+Timestep: 63000 / 100000
+Timestep: 64000 / 100000
+Counted Verlet list lenght = 7420
+Timestep: 65000 / 100000
+Counted Verlet list lenght = 7411
+Timestep: 66000 / 100000
+Timestep: 67000 / 100000
+Counted Verlet list lenght = 7450
+Timestep: 68000 / 100000
+Timestep: 69000 / 100000
+Counted Verlet list lenght = 7441
+Timestep: 70000 / 100000
+Counted Verlet list lenght = 7392
+Timestep: 71000 / 100000
+Timestep: 72000 / 100000
+Counted Verlet list lenght = 7416
+Timestep: 73000 / 100000
+Counted Verlet list lenght = 7403
+Timestep: 74000 / 100000
+Timestep: 75000 / 100000
+Counted Verlet list lenght = 7401
+Timestep: 76000 / 100000
+Counted Verlet list lenght = 7393
+Timestep: 77000 / 100000
+Timestep: 78000 / 100000
+Counted Verlet list lenght = 7418
+Timestep: 79000 / 100000
+Counted Verlet list lenght = 7383
+Timestep: 80000 / 100000
+Timestep: 81000 / 100000
+Counted Verlet list lenght = 7412
+Timestep: 82000 / 100000
+Counted Verlet list lenght = 7377
+Timestep: 83000 / 100000
+Timestep: 84000 / 100000
+Counted Verlet list lenght = 7419
+Timestep: 85000 / 100000
+Timestep: 86000 / 100000
+Counted Verlet list lenght = 7410
+Timestep: 87000 / 100000
+Counted Verlet list lenght = 7432
+Timestep: 88000 / 100000
+Timestep: 89000 / 100000
+Counted Verlet list lenght = 7461
+Timestep: 90000 / 100000
+Timestep: 91000 / 100000
+Counted Verlet list lenght = 7425
+Timestep: 92000 / 100000
+Counted Verlet list lenght = 7403
+Timestep: 93000 / 100000
+Timestep: 94000 / 100000
+Counted Verlet list lenght = 7416
+Timestep: 95000 / 100000
+Timestep: 96000 / 100000
+Counted Verlet list lenght = 7399
+Timestep: 97000 / 100000
+Counted Verlet list lenght = 7400
+Timestep: 98000 / 100000
+Timestep: 99000 / 100000
+Counted Verlet list lenght = 7430
+Run finished on: Sun Jan 13 20:17:53 2019
+Program running time was: 37.49 seconds
