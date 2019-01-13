@@ -1,18 +1,15 @@
-//
+
 //  main.cpp
 //  softplot
-//
-//  Created by András Libál on 7/20/18.
-//  Copyright © 2018 András Libál. All rights reserved.
-//
+//  Simulation Methods course, 2018
+//  First Assignment: Molecular Dynamics (Brownian Dynamics) Simulation
+//  Visualization part (needs the movie file copid into its directory)
 
 // The OpenGL libraries, make sure to include the GLUT and OpenGL frameworks
 
 #include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
-
-#include <string.h>
 
 #include "globaldata.h"
 #include "drawing.h"
@@ -24,8 +21,6 @@ int main(int argc, char **argv)
     initialize_global_data();
     
     read_moviefile_data();
-    
-    write_frame_data_to_file();
     
     init_glut();
     init_OpenGl();

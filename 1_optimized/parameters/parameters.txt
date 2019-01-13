@@ -1,0 +1,7 @@
+# Soft Simulation Parameter file
+
+System_size_x   60.0
+System_size_y   60.0
+
+N_particles     400
+

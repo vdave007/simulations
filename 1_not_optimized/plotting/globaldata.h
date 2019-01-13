@@ -1,17 +1,12 @@
-//
 //  globaldata.h
 //  softplot
-//
-//  Created by András Libál on 8/7/18.
-//  Copyright © 2018 András Libál. All rights reserved.
-//
+//  Simulation Methods course, 2018
+//  First Assignment: Molecular Dynamics (Brownian Dynamics) Simulation
 
 #ifndef globaldata_h
 #define globaldata_h
 
 #include <stdio.h>
-#include <cstring>
-
 
 struct object_struct
     {
@@ -59,11 +54,8 @@ struct global_struct
 extern struct global_struct global;
 
 void initialize_global_data(void);
-
 void open_movie_file(void);
 void dummy_read_cmovie_frame(void);
 void read_moviefile_data(void);
-
-void write_frame_data_to_file();
 
 #endif /* globaldata_h */
