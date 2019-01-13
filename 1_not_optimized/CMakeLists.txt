@@ -23,6 +23,7 @@ set(sim_SRC
    ${PROJECT_SOURCE_DIR}/simulation/main.c
    ${PROJECT_SOURCE_DIR}/simulation/globaldata.c
    ${PROJECT_SOURCE_DIR}/simulation/initializer.c
+   ${PROJECT_SOURCE_DIR}/simulation/timing.c
    ${PROJECT_SOURCE_DIR}/simulation/running.c)
 
 add_library(sim STATIC ${sim_SRC})
